@@ -1,0 +1,66 @@
+(export (version D)
+  (design
+    (source C:/Dev/MoonbeamInteractive/item-attachment/hardware/ItemAttachment_RevA/ItemAttachment_RevA.sch)
+    (date "11/13/2016 3:53:47 PM")
+    (tool "Eeschema 4.0.4-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source ItemAttachment_RevA.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref R1)
+      (value R)
+      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58289B15))
+    (comp (ref P1)
+      (value CONN_01X02)
+      (footprint moonbeam-kicad-footprints:ConcentricRingConn_12mm)
+      (libsource (lib conn) (part CONN_01X02))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5828A000)))
+  (libparts
+    (libpart (lib conn) (part CONN_01X02)
+      (description "Connector, single row, 01x02")
+      (footprints
+        (fp Pin_Header_Straight_1X02)
+        (fp Pin_Header_Angled_1X02)
+        (fp Socket_Strip_Straight_1X02)
+        (fp Socket_Strip_Angled_1X02))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X02))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+  (nets
+    (net (code 1) (name "Net-(P1-Pad1)")
+      (node (ref R1) (pin 1))
+      (node (ref P1) (pin 1)))
+    (net (code 2) (name "Net-(P1-Pad2)")
+      (node (ref R1) (pin 2))
+      (node (ref P1) (pin 2)))))
