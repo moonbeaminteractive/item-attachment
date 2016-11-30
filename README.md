@@ -38,12 +38,12 @@ To compute resistor values using E12 resistor to have a total resistance of arou
 | 24 | 100 | 100k | 1023 |
 
 
- +VCC <br>
-   |<br>
- < R1 ><br>
-   |<br>
-   +--------< R3 >------ to Analog pin on MCU<br>
-   |<br>
- < R2 ><br>
-   |<br>
-  GND<br>
+&nbsp;&nbsp; VCC <br>
+&nbsp;&nbsp;&nbsp; |<br>
+&nbsp; < R1 ><br>
+&nbsp;&nbsp;&nbsp; |<br>
+&nbsp;&nbsp;&nbsp; +--------< R3 >------ to Analog pin on MCU<br>
+&nbsp;&nbsp;&nbsp; |<br>
+&nbsp; < R2 ><br>
+&nbsp;&nbsp;&nbsp; |<br>
+&nbsp;&nbsp; GND<br>
