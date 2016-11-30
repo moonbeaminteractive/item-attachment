@@ -35,3 +35,9 @@ To compute resistor values using E12 resistor to have a total resistance of arou
 |16|33k|68|689|
 |20|82k|15k|866|
 |24|100|100k|1023|
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
