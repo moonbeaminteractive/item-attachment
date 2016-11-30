@@ -26,6 +26,7 @@ We used this tool:
 http://www.electronics2000.co.uk/calc/potential-divider-calculator.php
 
 To compute resistor values using E12 resistor to have a total resistance of around 100K ohms. Assuming only a 5% accuracy in resistors (we use 1% accurate resistors) as worst case scenario, we are able to easily differentiate 25 distint values. We begin by using the first set
+
 | ID | R1 | R2 | 10-bit |
 | --- | --- | --- | --- |
 | 0 | 100k | 100 | 1 |
@@ -35,9 +36,3 @@ To compute resistor values using E12 resistor to have a total resistance of arou
 | 16 | 33k | 68 | 689 |
 | 20 | 82k | 15k | 866 |
 | 24 | 100 | 100k | 1023 |
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
