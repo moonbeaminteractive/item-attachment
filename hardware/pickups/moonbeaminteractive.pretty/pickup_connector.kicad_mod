@@ -1,0 +1,14 @@
+(module pickup_connector locked (layer F.Cu) (tedit 58434954)
+  (attr smd)
+  (fp_text reference G*** (at 30.48 -10.16) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value LOGO (at 31.75 1.27) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy 5.644445 -2.1248) (xy 5.641653 -0.01618) (xy 5.622642 1.499285) (xy 5.57146 2.533996)
+    (xy 5.472154 3.200355) (xy 5.308772 3.610763) (xy 5.065362 3.877619) (xy 4.7625 4.089384)
+    (xy 4.178468 4.619855) (xy 3.923999 5.363838) (xy 3.880556 6.214184) (xy 3.880556 7.761111)
+    (xy -5.291666 7.761111) (xy -5.291666 -7.761111) (xy 5.644445 -7.761111) (xy 5.644445 -2.1248)) (layer F.Mask) (width 0.01))
+  (pad 1 thru_hole rect (at 0 3.81) (size 6 1) (drill oval 6 1) (layers *.Cu *.Mask))
+)
