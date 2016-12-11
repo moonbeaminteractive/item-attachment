@@ -2,4 +2,5 @@
   (lib (name moonbeaminteractive)(type KiCad)(uri "$(KIPRJMOD)/moonbeaminteractive.pretty")(options "")(descr ""))
   (lib (name laser-tag)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
   (lib (name connector)(type KiCad)(uri "$(KIPRJMOD)/connector")(options "")(descr ""))
+  (lib (name edges)(type KiCad)(uri "$(KIPRJMOD)/edges")(options "")(descr ""))
 )

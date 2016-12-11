@@ -65,10 +65,6 @@ F 3 "" H 6100 2550 50  0000 C CNN
 	1    6100 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 3050 0    60   Input ~ 0
-GND
-Text GLabel 6100 3050 2    60   Input ~ 0
-VCC
 $Comp
 L R R3
 U 1 1 58405371
@@ -80,32 +76,6 @@ F 3 "" H 5800 1750 50  0000 C CNN
 	1    5800 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR01
-U 1 1 584055E5
-P 4800 3800
-F 0 "#PWR01" H 4800 3550 50  0001 C CNN
-F 1 "GND" H 4800 3650 50  0000 C CNN
-F 2 "" H 4800 3800 50  0000 C CNN
-F 3 "" H 4800 3800 50  0000 C CNN
-	1    4800 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR02
-U 1 1 5840563E
-P 6650 3800
-F 0 "#PWR02" H 6650 3650 50  0001 C CNN
-F 1 "+3.3V" H 6650 3940 50  0000 C CNN
-F 2 "" H 6650 3800 50  0000 C CNN
-F 3 "" H 6650 3800 50  0000 C CNN
-	1    6650 3800
-	1    0    0    -1  
-$EndComp
-Text GLabel 6650 3800 0    60   Output ~ 0
-VCC
-Text GLabel 4800 3800 2    60   Output ~ 0
-GND
 Wire Wire Line
 	5800 1900 5800 2100
 Wire Wire Line
@@ -116,7 +86,42 @@ Wire Wire Line
 	6100 2100 6100 2400
 Connection ~ 5800 2100
 Wire Wire Line
-	6100 2700 6100 3050
+	6100 2700 6100 3500
 Wire Wire Line
-	5500 3050 5500 2700
+	5500 2700 5500 3500
+$Comp
+L CONN_01X01 P2
+U 1 1 5846F4B8
+P 5800 900
+F 0 "P2" H 5800 1000 50  0000 C CNN
+F 1 "OUT" V 5900 900 50  0000 C CNN
+F 2 "moonbeaminteractive:pickup_contact" H 5800 900 50  0001 C CNN
+F 3 "" H 5800 900 50  0000 C CNN
+	1    5800 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 1600 5800 1100
+$Comp
+L CONN_01X01 P3
+U 1 1 5846F621
+P 6100 3700
+F 0 "P3" H 6100 3800 50  0000 C CNN
+F 1 "GND" V 6200 3700 50  0000 C CNN
+F 2 "moonbeaminteractive:pickup_contact_bottom_right" H 6100 3700 50  0001 C CNN
+F 3 "" H 6100 3700 50  0000 C CNN
+	1    6100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P1
+U 1 1 5846F654
+P 5500 3700
+F 0 "P1" H 5500 3800 50  0000 C CNN
+F 1 "VCC" V 5600 3700 50  0000 C CNN
+F 2 "moonbeaminteractive:pickup_contact_bottom_left" H 5500 3700 50  0001 C CNN
+F 3 "" H 5500 3700 50  0000 C CNN
+	1    5500 3700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

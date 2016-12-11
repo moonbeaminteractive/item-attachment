@@ -1,0 +1,789 @@
+{
+    "dirty": false,
+    "markers": {
+        "count": 6,
+        "nullDisplayString": ""
+    },
+    "planDetail": {
+        "0": {
+            "cutHoles": true,
+            "cutOutline": true,
+            "cutTraces": true,
+            "extraFileUrls": {
+            },
+            "fileUrl": "file:///projects/DoIE/moonbeaminteractive/item-attachment/hardware/pickups/gerbers/pickups-F.Cu.gbr",
+            "geomMarkers": {
+                "count": 1,
+                "nullDisplayString": ""
+            },
+            "hasCustomTraceClearance": false,
+            "hasCustomTraceDepth": false,
+            "hasUncuttableGeometry": true,
+            "messages": {
+                "failures": [
+                ],
+                "isEmpty": false,
+                "problems": [
+                ],
+                "tips": [
+                ],
+                "warnings": [
+                    null
+                ]
+            },
+            "name": "pickups-F.Cu.gbr",
+            "parentStock": {
+                "defaultSizeIndex": 0,
+                "hasCustomSize": false,
+                "laminate": {
+                    "defaultSizes": {
+                        "count": 1,
+                        "nullDisplayString": "Custom Size"
+                    },
+                    "fixedDepth": 0,
+                    "floatCount": 0,
+                    "group": "Circuit Board",
+                    "layers": [
+                        {
+                            "fixed": 0.10000000000000001,
+                            "material": "copper"
+                        },
+                        {
+                            "float": 1.4399999999999999,
+                            "material": "phenolic"
+                        }
+                    ],
+                    "name": "Single-Sided FR-1",
+                    "naturalDepth": 0,
+                    "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+                },
+                "minOrigin": {
+                },
+                "placement": {
+                    "anchorRight": false,
+                    "offset": {
+                        "x": "0.000",
+                        "y": "0.000",
+                        "z": "0.000"
+                    }
+                },
+                "size": {
+                    "x": "127.000",
+                    "y": "101.600",
+                    "z": "1.540"
+                },
+                "zrotation": 0
+            },
+            "placement": {
+                "anchorRight": false,
+                "offset": {
+                    "x": "1.500",
+                    "y": "3.000",
+                    "z": "0.000"
+                }
+            },
+            "progress": 100,
+            "readyToCut": true,
+            "rotationDegrees": 0,
+            "runningTime": 201,
+            "tools": [
+                {
+                    "conductive": false,
+                    "fluteCount": 0,
+                    "group": 1,
+                    "height": 36.5,
+                    "maxCuttingRadius": 0.39687499999999998,
+                    "maxPassDepth": 1.5874999999999999,
+                    "name": "1/32in Flat End Mill",
+                    "shankRadius": 1.5874999999999999,
+                    "uuid": "{ffc3953b-a29d-4c22-8263-975b2722adbc}"
+                }
+            ],
+            "traceClearance": 0.14999999999999999,
+            "traceDepth": 0.14999999999999999,
+            "useDetailToolEverywhere": false,
+            "visible": true,
+            "workplans": [
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 35,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{59252627-1925-489f-9934-caf6908b6f74}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 55,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{d9e49654-a757-4c40-9432-cc2b7034006c}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 111,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{98c09562-1b94-44fe-9425-07a573853f78}"
+                }
+            ]
+        },
+        "1": {
+            "cutHoles": true,
+            "cutOutline": true,
+            "cutTraces": true,
+            "extraFileUrls": {
+            },
+            "fileUrl": "file:///projects/DoIE/moonbeaminteractive/item-attachment/hardware/pickups/gerbers/pickups-F.Cu.gbr",
+            "geomMarkers": {
+                "count": 1,
+                "nullDisplayString": ""
+            },
+            "hasCustomTraceClearance": false,
+            "hasCustomTraceDepth": false,
+            "hasUncuttableGeometry": true,
+            "messages": {
+                "failures": [
+                ],
+                "isEmpty": false,
+                "problems": [
+                ],
+                "tips": [
+                ],
+                "warnings": [
+                    null
+                ]
+            },
+            "name": "pickups-F.Cu.gbr",
+            "parentStock": {
+                "defaultSizeIndex": 0,
+                "hasCustomSize": false,
+                "laminate": {
+                    "defaultSizes": {
+                        "count": 1,
+                        "nullDisplayString": "Custom Size"
+                    },
+                    "fixedDepth": 0,
+                    "floatCount": 0,
+                    "group": "Circuit Board",
+                    "layers": [
+                        {
+                            "fixed": 0.10000000000000001,
+                            "material": "copper"
+                        },
+                        {
+                            "float": 1.4399999999999999,
+                            "material": "phenolic"
+                        }
+                    ],
+                    "name": "Single-Sided FR-1",
+                    "naturalDepth": 0,
+                    "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+                },
+                "minOrigin": {
+                },
+                "placement": {
+                    "anchorRight": false,
+                    "offset": {
+                        "x": "0.000",
+                        "y": "0.000",
+                        "z": "0.000"
+                    }
+                },
+                "size": {
+                    "x": "127.000",
+                    "y": "101.600",
+                    "z": "1.540"
+                },
+                "zrotation": 0
+            },
+            "placement": {
+                "anchorRight": false,
+                "offset": {
+                    "x": "1.500",
+                    "y": "53.000",
+                    "z": "0.000"
+                }
+            },
+            "progress": 100,
+            "readyToCut": true,
+            "rotationDegrees": 0,
+            "runningTime": 210,
+            "tools": [
+                {
+                    "conductive": false,
+                    "fluteCount": 0,
+                    "group": 1,
+                    "height": 36.5,
+                    "maxCuttingRadius": 0.39687499999999998,
+                    "maxPassDepth": 1.5874999999999999,
+                    "name": "1/32in Flat End Mill",
+                    "shankRadius": 1.5874999999999999,
+                    "uuid": "{ffc3953b-a29d-4c22-8263-975b2722adbc}"
+                }
+            ],
+            "traceClearance": 0.14999999999999999,
+            "traceDepth": 0.14999999999999999,
+            "useDetailToolEverywhere": false,
+            "visible": true,
+            "workplans": [
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 38,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{b3aa6424-67eb-4504-b9cf-e3812904fa42}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 58,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{32f647a0-e2a2-4d28-959d-204c28b04c14}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 114,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{67642a99-f1c9-4d6a-b1cd-c95865f85439}"
+                }
+            ]
+        },
+        "2": {
+            "cutHoles": true,
+            "cutOutline": true,
+            "cutTraces": true,
+            "extraFileUrls": {
+            },
+            "fileUrl": "file:///projects/DoIE/moonbeaminteractive/item-attachment/hardware/pickups/gerbers/pickups-F.Cu.gbr",
+            "geomMarkers": {
+                "count": 1,
+                "nullDisplayString": ""
+            },
+            "hasCustomTraceClearance": false,
+            "hasCustomTraceDepth": false,
+            "hasUncuttableGeometry": true,
+            "messages": {
+                "failures": [
+                ],
+                "isEmpty": false,
+                "problems": [
+                ],
+                "tips": [
+                ],
+                "warnings": [
+                    null
+                ]
+            },
+            "name": "pickups-F.Cu.gbr",
+            "parentStock": {
+                "defaultSizeIndex": 0,
+                "hasCustomSize": false,
+                "laminate": {
+                    "defaultSizes": {
+                        "count": 1,
+                        "nullDisplayString": "Custom Size"
+                    },
+                    "fixedDepth": 0,
+                    "floatCount": 0,
+                    "group": "Circuit Board",
+                    "layers": [
+                        {
+                            "fixed": 0.10000000000000001,
+                            "material": "copper"
+                        },
+                        {
+                            "float": 1.4399999999999999,
+                            "material": "phenolic"
+                        }
+                    ],
+                    "name": "Single-Sided FR-1",
+                    "naturalDepth": 0,
+                    "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+                },
+                "minOrigin": {
+                },
+                "placement": {
+                    "anchorRight": false,
+                    "offset": {
+                        "x": "0.000",
+                        "y": "0.000",
+                        "z": "0.000"
+                    }
+                },
+                "size": {
+                    "x": "127.000",
+                    "y": "101.600",
+                    "z": "1.540"
+                },
+                "zrotation": 0
+            },
+            "placement": {
+                "anchorRight": false,
+                "offset": {
+                    "x": "43.000",
+                    "y": "53.000",
+                    "z": "0.000"
+                }
+            },
+            "progress": 100,
+            "readyToCut": true,
+            "rotationDegrees": 0,
+            "runningTime": 210,
+            "tools": [
+                {
+                    "conductive": false,
+                    "fluteCount": 0,
+                    "group": 1,
+                    "height": 36.5,
+                    "maxCuttingRadius": 0.39687499999999998,
+                    "maxPassDepth": 1.5874999999999999,
+                    "name": "1/32in Flat End Mill",
+                    "shankRadius": 1.5874999999999999,
+                    "uuid": "{ffc3953b-a29d-4c22-8263-975b2722adbc}"
+                }
+            ],
+            "traceClearance": 0.14999999999999999,
+            "traceDepth": 0.14999999999999999,
+            "useDetailToolEverywhere": false,
+            "visible": true,
+            "workplans": [
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 38,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{9d9f38b2-7876-4db2-b4a4-c2dcd8955fed}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 58,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{149c6aeb-e3d8-4eb5-a7ed-7056770b3d4e}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 114,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{16ae2f1d-e52d-4cba-b824-f44c097814ce}"
+                }
+            ]
+        },
+        "3": {
+            "cutHoles": true,
+            "cutOutline": true,
+            "cutTraces": true,
+            "extraFileUrls": {
+            },
+            "fileUrl": "file:///projects/DoIE/moonbeaminteractive/item-attachment/hardware/pickups/gerbers/pickups-F.Cu.gbr",
+            "geomMarkers": {
+                "count": 1,
+                "nullDisplayString": ""
+            },
+            "hasCustomTraceClearance": false,
+            "hasCustomTraceDepth": false,
+            "hasUncuttableGeometry": true,
+            "messages": {
+                "failures": [
+                ],
+                "isEmpty": false,
+                "problems": [
+                ],
+                "tips": [
+                ],
+                "warnings": [
+                    null
+                ]
+            },
+            "name": "pickups-F.Cu.gbr",
+            "parentStock": {
+                "defaultSizeIndex": 0,
+                "hasCustomSize": false,
+                "laminate": {
+                    "defaultSizes": {
+                        "count": 1,
+                        "nullDisplayString": "Custom Size"
+                    },
+                    "fixedDepth": 0,
+                    "floatCount": 0,
+                    "group": "Circuit Board",
+                    "layers": [
+                        {
+                            "fixed": 0.10000000000000001,
+                            "material": "copper"
+                        },
+                        {
+                            "float": 1.4399999999999999,
+                            "material": "phenolic"
+                        }
+                    ],
+                    "name": "Single-Sided FR-1",
+                    "naturalDepth": 0,
+                    "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+                },
+                "minOrigin": {
+                },
+                "placement": {
+                    "anchorRight": false,
+                    "offset": {
+                        "x": "0.000",
+                        "y": "0.000",
+                        "z": "0.000"
+                    }
+                },
+                "size": {
+                    "x": "127.000",
+                    "y": "101.600",
+                    "z": "1.540"
+                },
+                "zrotation": 0
+            },
+            "placement": {
+                "anchorRight": false,
+                "offset": {
+                    "x": "84.500",
+                    "y": "53.000",
+                    "z": "0.000"
+                }
+            },
+            "progress": 100,
+            "readyToCut": true,
+            "rotationDegrees": 0,
+            "runningTime": 215,
+            "tools": [
+                {
+                    "conductive": false,
+                    "fluteCount": 0,
+                    "group": 1,
+                    "height": 36.5,
+                    "maxCuttingRadius": 0.39687499999999998,
+                    "maxPassDepth": 1.5874999999999999,
+                    "name": "1/32in Flat End Mill",
+                    "shankRadius": 1.5874999999999999,
+                    "uuid": "{ffc3953b-a29d-4c22-8263-975b2722adbc}"
+                }
+            ],
+            "traceClearance": 0.14999999999999999,
+            "traceDepth": 0.14999999999999999,
+            "useDetailToolEverywhere": false,
+            "visible": true,
+            "workplans": [
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 40,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{871f253a-d04f-42ec-a211-f0f3e4e08abb}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 59,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{8b5417cd-f3fc-4213-9d37-93b7e32e828f}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 116,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{b5d90fca-0a82-47b3-b103-0801e2657f92}"
+                }
+            ]
+        },
+        "4": {
+            "cutHoles": true,
+            "cutOutline": true,
+            "cutTraces": true,
+            "extraFileUrls": {
+            },
+            "fileUrl": "file:///projects/DoIE/moonbeaminteractive/item-attachment/hardware/pickups/gerbers/pickups-F.Cu.gbr",
+            "geomMarkers": {
+                "count": 1,
+                "nullDisplayString": ""
+            },
+            "hasCustomTraceClearance": false,
+            "hasCustomTraceDepth": false,
+            "hasUncuttableGeometry": true,
+            "messages": {
+                "failures": [
+                ],
+                "isEmpty": false,
+                "problems": [
+                ],
+                "tips": [
+                ],
+                "warnings": [
+                    null
+                ]
+            },
+            "name": "pickups-F.Cu.gbr",
+            "parentStock": {
+                "defaultSizeIndex": 0,
+                "hasCustomSize": false,
+                "laminate": {
+                    "defaultSizes": {
+                        "count": 1,
+                        "nullDisplayString": "Custom Size"
+                    },
+                    "fixedDepth": 0,
+                    "floatCount": 0,
+                    "group": "Circuit Board",
+                    "layers": [
+                        {
+                            "fixed": 0.10000000000000001,
+                            "material": "copper"
+                        },
+                        {
+                            "float": 1.4399999999999999,
+                            "material": "phenolic"
+                        }
+                    ],
+                    "name": "Single-Sided FR-1",
+                    "naturalDepth": 0,
+                    "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+                },
+                "minOrigin": {
+                },
+                "placement": {
+                    "anchorRight": false,
+                    "offset": {
+                        "x": "0.000",
+                        "y": "0.000",
+                        "z": "0.000"
+                    }
+                },
+                "size": {
+                    "x": "127.000",
+                    "y": "101.600",
+                    "z": "1.540"
+                },
+                "zrotation": 0
+            },
+            "placement": {
+                "anchorRight": false,
+                "offset": {
+                    "x": "84.500",
+                    "y": "3.000",
+                    "z": "0.000"
+                }
+            },
+            "progress": 100,
+            "readyToCut": true,
+            "rotationDegrees": 0,
+            "runningTime": 215,
+            "tools": [
+                {
+                    "conductive": false,
+                    "fluteCount": 0,
+                    "group": 1,
+                    "height": 36.5,
+                    "maxCuttingRadius": 0.39687499999999998,
+                    "maxPassDepth": 1.5874999999999999,
+                    "name": "1/32in Flat End Mill",
+                    "shankRadius": 1.5874999999999999,
+                    "uuid": "{ffc3953b-a29d-4c22-8263-975b2722adbc}"
+                }
+            ],
+            "traceClearance": 0.14999999999999999,
+            "traceDepth": 0.14999999999999999,
+            "useDetailToolEverywhere": false,
+            "visible": true,
+            "workplans": [
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 40,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{63b62b49-4e03-4a57-a267-1739c5707608}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 59,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{1fa2add4-6c16-43e1-bd3e-a88f5caaed5a}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 116,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{87d37eb2-7eb6-49f6-901e-2bd84e25bfe0}"
+                }
+            ]
+        },
+        "5": {
+            "cutHoles": true,
+            "cutOutline": true,
+            "cutTraces": true,
+            "extraFileUrls": {
+            },
+            "fileUrl": "file:///projects/DoIE/moonbeaminteractive/item-attachment/hardware/pickups/gerbers/pickups-F.Cu.gbr",
+            "geomMarkers": {
+                "count": 1,
+                "nullDisplayString": ""
+            },
+            "hasCustomTraceClearance": false,
+            "hasCustomTraceDepth": false,
+            "hasUncuttableGeometry": true,
+            "messages": {
+                "failures": [
+                ],
+                "isEmpty": false,
+                "problems": [
+                ],
+                "tips": [
+                ],
+                "warnings": [
+                    null
+                ]
+            },
+            "name": "pickups-F.Cu.gbr",
+            "parentStock": {
+                "defaultSizeIndex": 0,
+                "hasCustomSize": false,
+                "laminate": {
+                    "defaultSizes": {
+                        "count": 1,
+                        "nullDisplayString": "Custom Size"
+                    },
+                    "fixedDepth": 0,
+                    "floatCount": 0,
+                    "group": "Circuit Board",
+                    "layers": [
+                        {
+                            "fixed": 0.10000000000000001,
+                            "material": "copper"
+                        },
+                        {
+                            "float": 1.4399999999999999,
+                            "material": "phenolic"
+                        }
+                    ],
+                    "name": "Single-Sided FR-1",
+                    "naturalDepth": 0,
+                    "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+                },
+                "minOrigin": {
+                },
+                "placement": {
+                    "anchorRight": false,
+                    "offset": {
+                        "x": "0.000",
+                        "y": "0.000",
+                        "z": "0.000"
+                    }
+                },
+                "size": {
+                    "x": "127.000",
+                    "y": "101.600",
+                    "z": "1.540"
+                },
+                "zrotation": 0
+            },
+            "placement": {
+                "anchorRight": false,
+                "offset": {
+                    "x": "43.000",
+                    "y": "3.000",
+                    "z": "0.000"
+                }
+            },
+            "progress": 100,
+            "readyToCut": true,
+            "rotationDegrees": 0,
+            "runningTime": 207,
+            "tools": [
+                {
+                    "conductive": false,
+                    "fluteCount": 0,
+                    "group": 1,
+                    "height": 36.5,
+                    "maxCuttingRadius": 0.39687499999999998,
+                    "maxPassDepth": 1.5874999999999999,
+                    "name": "1/32in Flat End Mill",
+                    "shankRadius": 1.5874999999999999,
+                    "uuid": "{ffc3953b-a29d-4c22-8263-975b2722adbc}"
+                }
+            ],
+            "traceClearance": 0.14999999999999999,
+            "traceDepth": 0.14999999999999999,
+            "useDetailToolEverywhere": false,
+            "visible": true,
+            "workplans": [
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 37,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{60819855-a85e-49f5-84e5-331f65e5a4ed}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 57,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{32558ae7-8ead-4cfc-a199-01d8a75a1da5}"
+                },
+                {
+                    "gcodeWarning": "",
+                    "runningTime": 113,
+                    "tool": "{ffc3953b-a29d-4c22-8263-975b2722adbc}",
+                    "toolNumber": 1,
+                    "uuid": "{3a0ec05e-6a3b-4756-ac46-ef2a6b8868b9}"
+                }
+            ]
+        }
+    },
+    "plans": {
+        "count": 6,
+        "nullDisplayString": "",
+        "runningTime": 1051
+    },
+    "stepSize": 2,
+    "stock": {
+        "defaultSizeIndex": 0,
+        "hasCustomSize": false,
+        "laminate": {
+            "defaultSizes": {
+                "count": 1,
+                "nullDisplayString": "Custom Size"
+            },
+            "fixedDepth": 0,
+            "floatCount": 0,
+            "group": "Circuit Board",
+            "layers": [
+                {
+                    "fixed": 0.10000000000000001,
+                    "material": "copper"
+                },
+                {
+                    "float": 1.4399999999999999,
+                    "material": "phenolic"
+                }
+            ],
+            "name": "Single-Sided FR-1",
+            "naturalDepth": 0,
+            "uuid": "{211d8aac-f38a-48ca-b692-7004d3222719}"
+        },
+        "minOrigin": {
+        },
+        "placement": {
+            "anchorRight": false,
+            "offset": {
+                "x": "0.000",
+                "y": "0.000",
+                "z": "0.000"
+            }
+        },
+        "size": {
+            "x": "127.000",
+            "y": "101.600",
+            "z": "1.540"
+        },
+        "zrotation": 0
+    }
+}
