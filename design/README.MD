@@ -1,3 +1,5 @@
+See the wiki for fabrication information. 
+
 #Pickups
 There are several different types of base enhancements afforded by the pickups. The five types are increased mana factor, increased healing factor, increased shields, increase damage, and a nuke. 
 
