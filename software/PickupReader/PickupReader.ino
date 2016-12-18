@@ -52,6 +52,9 @@ bool checkPickups() {
     } else if (value > 60 && value < 70) {
       pickups = "SHIELD";
       pickupsBelt[i] = PICKUP_SHIELD;
+    } else if (value > 80 && value < 90) {
+      pickups = "NUKE";
+      pickupsBelt[i] = PICKUP_NUKE;
     } else if (value > 110 && value < 120) {
       pickups = "HEALING";
       pickupsBelt[i] = PICKUP_HEALING;
